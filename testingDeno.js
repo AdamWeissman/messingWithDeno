@@ -5,3 +5,6 @@ if (food === "love") {
 } else {
   console.log("the egg needs some love")
 }
+
+
+console.log(window);
