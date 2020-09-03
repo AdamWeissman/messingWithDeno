@@ -1,10 +1,7 @@
-const food = Deno.args[0]
-
-if (food === "love") {
-  console.log("deno is born")
-} else {
-  console.log("the egg needs some love")
+export function denode(input) {
+  if (input.toLowerCase() === 'node') {
+    return input.split('').sort().join('')
+  }
+  return input
 }
 
-
-console.log(window);
