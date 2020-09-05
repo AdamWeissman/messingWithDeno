@@ -1,5 +1,7 @@
 import * as log from "https://deno.land/std/log/mod.ts"
 
+
+
 async function downloadLaunchData() {
   log.info("huh")
   const response = await fetch("https://reqres.in/api/users",{
